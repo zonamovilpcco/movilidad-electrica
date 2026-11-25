@@ -1,0 +1,11 @@
+Ruta Legal — versión 3D como entrada principal
+
+Cambios en esta copia del proyecto:
+- El manifiesto PWA inicia ahora en index-3d.html y define un id estable.
+- El Service Worker usa una caché nueva e incluye index-3d.html.
+- La lista de precaché se corrigió: el ZIP original referenciaba iconos y un marcador que no estaban incluidos.
+- Se añadieron iconos PNG y el marcador de bicicleta que el HTML ya referenciaba.
+- Si MapLibre no carga o no puede crear el mapa WebGL, se abre index.html como alternativa.
+- La página 3D conserva el nombre visible Ruta Legal.
+
+Esta entrega es el proyecto web corregido, no un APK. Debe publicarse y probarse primero desde Chrome instalado.
